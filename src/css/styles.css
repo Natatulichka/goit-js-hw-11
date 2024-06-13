@@ -6,6 +6,23 @@
 */
 
 @import url('./reset.css');
-@import url('./1-timer.css');
-@import url('./2-snackbar.css');
-@import url('./header.css');
+@import 'simplelightbox/dist/simple-lightbox.min.css';
+.gallery {
+  list-style-type: none;
+  max-width: 1128px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 100px auto;
+  padding: 0;
+  gap: 48px 24px;
+}
+.gallery li {
+  height: 300px;
+}
+.gallery img {
+  object-fit: cover;
+}
+.has-lightbox {
+  background: rgba(46, 47, 66, 0.8);
+}
