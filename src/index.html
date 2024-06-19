@@ -12,13 +12,34 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Gallery</title>
   </head>
   <body>
     <header></header>
     <main>
-      <form action="">
-        <ul class="gallery"></ul>
-      </form>
+      <div class="container">
+        <form class="form" id="form">
+          <input
+            class="form-input"
+            type="text"
+            name="searchQuery"
+            autocomplete="off"
+            placeholder="Search images..."
+          />
+          <button class="form-button" type="submit">Search</button>
+        </form>
+
+        <div class="gallery"></div>
+        <button type="button" class="js-loader-btn hidden">Load more</button>
+        <p class="js-text-info hidden"></p>
+        <a class="btn-to-top visible" title="Return to top">
+          <span class="material-icons">arrow_upward</span></a
+        >
+      </div>
     </main>
     <footer></footer>
     <script type="module" src="./main.js" defer></script>

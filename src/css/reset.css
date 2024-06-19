@@ -36,3 +36,11 @@ img {
 body {
   font-family: 'Montserrat', sans-serif;
 }
+.container {
+  letter-spacing: 0.04em;
+  width: 100%;
+  list-style-type: none;
+  max-width: 1128px;
+  margin: 100px auto;
+  padding: 0;
+}

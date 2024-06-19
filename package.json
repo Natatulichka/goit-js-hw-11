@@ -16,8 +16,10 @@
   "license": "ISC",
   "dependencies": {
     "flatpickr": "^4.6.13",
+    "import": "^0.0.6",
     "izitoast": "^1.4.0",
     "modern-normalize": "^2.0.0",
+    "scroll-js": "^3.5.2",
     "simplelightbox": "^2.14.3",
     "vite-plugin-full-reload": "^1.0.5",
     "vite-plugin-html-inject": "^1.0.1"
